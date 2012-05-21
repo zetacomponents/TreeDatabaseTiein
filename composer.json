@@ -38,7 +38,13 @@
     },
     "description": "The Tree component handles the creating, manipulating and querying of tree structures.  This component implements the database related backends and data stores.",
     "homepage": "https://github.com/zetacomponents",
-    "license": "apache2",
+    "license": "Apache-2.0",
     "name": "zetacomponents/tree-database-tiein",
-    "type": "library"
+    "type": "library",
+        "require": {
+            "zetacomponents/base": "*"
+        },
+        "require-dev": {
+            "zetacomponents/unit-test": "*"
+        }
 }
