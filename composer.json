@@ -41,10 +41,11 @@
     "license": "Apache-2.0",
     "name": "zetacomponents/tree-database-tiein",
     "type": "library",
-        "require": {
-            "zetacomponents/base": "*"
-        },
-        "require-dev": {
-            "zetacomponents/unit-test": "*"
-        }
+    "require": {
+        "zetacomponents/tree": "~1.1"
+        "zetacomponents/database": "~1.4"
+    },
+    "require-dev": {
+        "zetacomponents/unit-test": "*"
+    }
 }
