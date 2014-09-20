@@ -42,7 +42,7 @@
     "name": "zetacomponents/tree-database-tiein",
     "type": "library",
     "require": {
-        "zetacomponents/tree": "~1.1"
+        "zetacomponents/tree": "~1.1",
         "zetacomponents/database": "~1.4"
     },
     "require-dev": {
